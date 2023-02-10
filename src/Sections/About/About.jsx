@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import Heading from "../../components/Heading/Heading";
 import profile_pic from "../../assets/profile-pic.jpg"
 
 
