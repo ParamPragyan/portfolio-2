@@ -14,10 +14,12 @@ const Experience = () => {
               <div
                 className={idx === currentIdx ? "experience_tab experience_active_tab" : "experience_tab"}
                 onClick={() =>
+
                   setCurrentIndex(idx)}>
                 {experiences.company}
-                key ={idx}
+                
               </div>
+            
               
             )))
           }
