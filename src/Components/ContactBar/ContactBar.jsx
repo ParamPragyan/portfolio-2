@@ -1,21 +1,25 @@
 import React from "react";
 import "./ContactBar.css";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import constant from "../../constant.json"
+import linkedin from "../../assets/linkedin.png"
+import github from "../../assets/github.png"
+import twitter from "../../assets/twitter.png"
+import instagram from "../../assets/instagram.png"
+
+
 
 const ContactBar = () => {
   return (
     <div className="contact_bar_wrapper">
       <div className="contact_bar">
+        
         <a
           href="#random"
           target="_blank"
           className="contact_bar_icon"
           rel="noreferrer"
         >
-         <LinkedInIcon />
+         <img src={linkedin} alt="" />
         </a>
         <a
           href="#random"
@@ -23,7 +27,7 @@ const ContactBar = () => {
           className="contact_bar_icon"
           rel="noreferrer"
         >
-         <GitHubIcon />
+         <img src={github} alt="" />
         </a>
         <a
           href="#random"
@@ -31,7 +35,7 @@ const ContactBar = () => {
           className="contact_bar_icon"
           rel="noreferrer"
         >
-          <InstagramIcon />
+          <img src={twitter} alt="" />
         </a>
         <a
           href="#random"
@@ -39,7 +43,7 @@ const ContactBar = () => {
           className="contact_bar_icon"
           rel="noreferrer"
         >
-          <TwitterIcon />
+          <img src={instagram} alt="" />
         </a>
         <div className="contact_bar_line"></div>
       </div>

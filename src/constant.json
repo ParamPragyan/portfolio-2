@@ -51,5 +51,14 @@
       "link" : "https://matrix-canvas.vercel.app/"
     }
 
+  ],
+  "icons" : [
+    {
+      "github" : "src/assets/github.png",
+      "linkedin" : "src/assets/linkedin.png",
+      "twitter" : "src/assets/twitter.png",
+      "instagram" : "src/assets/instagram.png"
+
+    }
   ]
 }
