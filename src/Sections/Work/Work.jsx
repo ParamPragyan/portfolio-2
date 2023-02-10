@@ -1,5 +1,7 @@
 import constant from "../../constant.json";
 import './Work.css'
+// import matrix from "../../assets/matrix.png"
+// import speedo from "../../assets/.png"
 
 const Work = () => {
   return (
@@ -7,7 +9,6 @@ const Work = () => {
       <div className="work_container">
         {constant.projects.map(
           (project, idx) => (
-            // idx % 2 === 0 ?
             <div className="work_project">
               <div className="work_left">
                 <a href={project.link} target="_blank">
