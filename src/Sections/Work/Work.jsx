@@ -11,9 +11,9 @@ const Work = () => {
           (project, idx) => (
             <div className="work_project">
               <div className="work_left">
-                {/* <a href={project.link} target="_blank"> */}
+                <a href={project.link} target="_blank">
                   <img src={project.image} alt="" className="work_img" />
-                {/* </a> */}
+                </a>
               </div>
               <div className="work_right">
                 <a href={project.link} target="_blank">
