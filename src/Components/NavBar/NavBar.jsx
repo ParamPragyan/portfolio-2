@@ -8,19 +8,19 @@ const Navbar = () => {
       </div>
 
       <div className="nav_right">
-        <a href="#About" className="nav_link">
+        <a href="#about" className="nav_link">
           About
         </a>
 
-        <a href="#Experience" className="nav_link">
+        <a href="#experience" className="nav_link">
           Experience
         </a>
 
-        <a href="#Work" className="nav_link">
+        <a href="#work" className="nav_link">
           Projects
         </a>
 
-        <a href="#Contact" className="nav_link">
+        <a href="#contact" className="nav_link">
           Contact
         </a>
 

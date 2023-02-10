@@ -5,7 +5,7 @@ import './Work.css'
 
 const Work = () => {
   return (
-    <section id="Work">
+    <section id="work">
       <div className="work_container">
         {constant.projects.map(
           (project, idx) => (
